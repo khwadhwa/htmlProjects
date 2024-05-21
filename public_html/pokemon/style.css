@@ -1,0 +1,99 @@
+/* This defines the font used in the headers and NavBar */
+@font-face {
+	font-family: PokeFont;
+	src: url(PocketMonk.ttf);
+}
+
+body {
+	background-color: #ffcb05;
+}
+
+div {
+	font-family: PokeFont;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #3c5aa6;
+	font-family: PokeFont;
+}
+
+.navbar a {
+	float: left;
+	font-size: 16px;
+	color: yellow;
+	text-align: center;
+	padding: 12px 14px;
+	font-family: PokeFont;
+}
+/* This section and the below section create attributes for the dropdown menu and each of its attributes */
+.dropbtn {
+	float: left;
+	overflow: hidden;
+}
+
+.dropbtn .dropbutton {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: yellow;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: PokeFont;
+	margin: 0;
+}
+/* This changes the color of the NavBar entry when it is hovered over */
+.navbar a:hover, .dropbtn:hover .dropbutton {
+	background-color: #ffcb05;
+}
+
+.dropct {
+	display: none;
+	position: absolute;
+	background-color: white;
+}
+
+.dropct a {
+	float: none;
+	color: black;
+	padding: 10px 14px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropbtn:hover .dropct {
+	display: block;
+}
+
+h1 {
+	color: #3c5aa6;
+	font-family: PokeFont;
+	font-size: 40px;
+}
+
+p {
+	font-family: Times New Roman;
+	font-size: 15px;
+}
+
+table, tr, td {
+	border: 1px solid blue;
+	border-collapse: collapse;
+}
+
+td {
+	text-align: center;
+	padding: 10px;
+}
+
+ul, ol, li {
+	color: blue;
+	font-size: 24px;
+	padding: 20px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}

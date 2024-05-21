@@ -1,0 +1,57 @@
+body {
+	background-color: #DEB887;
+}
+
+p {
+	font-family: 'Heldane Text', sans-serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 40px;
+	color: #800000;
+	background-color: #FFE4C4;
+	border: 5px solid black;
+	font-family: 'Times New Roman';
+	text-align: center;
+	margin: 25px;
+}
+
+h3 {
+	color: brown;
+}
+
+iframe {
+	padding: 100px, black;
+	background-color: #777;
+}
+
+#nav {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	background-color: #dddddd;
+}
+
+.navLI {
+	display: inline;
+}
+
+nav li {
+   display: inline-block;
+   position: relative;
+}
+nav li ul {
+   display: none;
+   position: absolute;
+   width: 100px;
+   top: 100%;
+   padding: 0;
+}
+nav li:hover > ul {
+   display: block;
+}
+nav a {
+}

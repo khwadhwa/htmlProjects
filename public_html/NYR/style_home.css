@@ -1,0 +1,78 @@
+/*The following code integrates the TrueFontFile into a usable CSS font*/
+
+@font-face {
+	font-family: Staatliches;
+	src: url(Staatliches.ttf);
+}
+
+@font-face {
+	font-family: Gloock;
+	src: url(Gloock.ttf);
+}
+
+.navbar-brand {
+
+	font-size: 30px;
+	font-family: Staatliches;
+}
+
+/*The opacity attribute defines how opaque the text is from 0 to 1*/
+
+p,
+h6 {
+	margin-top: 20px;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 24px;
+	font-family: Gloock;
+}
+
+#nav {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 60px;
+	background-color: #002346;
+}
+
+#logo {
+	width: 15%;
+	margin-right: 0px;
+}
+
+.haus {
+	background-color: #96bdef;
+}
+
+/* The below CSS is related to styling the background image on the homepage */
+
+.background {
+	position: relative;
+	color: white;
+	opacity: 0.95;
+	width: 100%;
+	margin-right: auto;
+}
+
+/*The target attribute tells all links with this tag to open in a blank page*/
+.ext {
+	target="_blank";
+}
+
+.top5 {
+	list-style-type: upper-roman;
+	background: #00285D;
+	color: #E13A3E;
+	font-size: 18px;
+	font-family: Staatliches;
+}
+
+ol {
+	margin: 4px;
+	text-align: center;
+}
+
+li {
+	font-size: 16px;
+}

@@ -1,0 +1,39 @@
+/*The following code integrates the TrueFontFile into a usable CSS font*/
+
+@font-face {
+	font-family: Rakkas-Regular;
+	src: url(Rakkas-Regular.ttf);
+}
+
+table,
+td,
+th {
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	padding: 4px;
+	background-color: #99c5ff;
+	color: white;
+}
+
+body {
+	background-color: #2f0408;
+}
+
+th {
+	font-size: 24px;
+	background-color: #f25a69;
+}
+
+h1,
+h2,
+h3 {
+	font-family: Rakkas-Regular;
+	color: white;
+}
+
+p {
+	color: white;
+}

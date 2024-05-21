@@ -1,0 +1,58 @@
+/*The following code integrates the TrueFontFile into a usable CSS font*/
+
+@font-face {
+	font-family: Staatliches;
+	src: url(Staatliches.ttf);
+}
+
+@font-face {
+	font-family: Gloock;
+	src: url(Gloock.ttf);
+}
+
+
+.rtown {
+	margin-top: 125px;
+	width: 50%;
+}
+
+body {
+	background-color: #2f0408
+}
+
+table,
+th,
+td {
+	border: 1px solid #00285D;
+	text-align: center;
+	margin-top: 100px;
+}
+
+td,
+th {
+	padding: 12px;
+}
+
+th {
+	background-color: white;
+}
+
+
+.h {
+	background-color: #99c5ff;
+}
+
+.a {
+	background-color: #f25a69;
+}
+
+p {
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	font-family: Staatliches;
+	color: white;
+}

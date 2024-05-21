@@ -1,0 +1,32 @@
+body {
+	background-color: #96bdef;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td,
+tr {
+	border: bottom 2px solid black;
+	text-align: center;
+}
+
+iframe {
+	width: auto;
+	border: 5px solid #153c93;
+	margin: 5px;
+}
+
+h1 {
+	font-family: Staatliches;
+}
+
+p {
+	font-size: 16px;
+}
+
+td {
+	padding: 60px;
+}
